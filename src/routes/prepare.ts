@@ -1,6 +1,6 @@
 import { Router, Response, Request } from 'express';
 import { logger } from '../utils/logger';
-import { prepareTransaction } from '../services/moonshotService';
+import { prepareTransaction } from '../services/prepareService';
 
 const router = Router();
 
